@@ -1,0 +1,63 @@
+/* default style for test */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+   background-color: cyan;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.item2 {
+  color: blue;
+}
+
+main {
+  margin-top: 4em;
+}
+
+.image {
+  display: inline;
+}
+
+.h3same {
+  color: rgb(253, 165, 0);
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.book {
+  margin: 20px auto;
+}
+
+.box-model {
+  margin: 10%;
+}
+
+.box-model p,
+img {
+  padding: 5px;
+}
+.treeimg {
+  width: 200px;
+  border-radius: 50%;
+}
+
+footer a:visited {
+  color: green;
+}
+
+footer a:hover {
+  color: red;
+}
